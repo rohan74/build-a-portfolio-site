@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <!-- for proper rendering and touch zooming adding viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Rohan Sunki</title>
+    <!-- font family  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- for cross browser rendering -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+     <!-- bootstrap framework -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- additional styles  -->
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+
+
+<body>
+    <!-- /header -->
+    <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 header__logo">
+                        <img src="images/rohan.jpg" alt="profile-picture" class="img-responsive profile_picture" height="100" width="100">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 text-right header__title">
+                        <h1 class="text-muted full_name">Rohan Sunki</h1>
+                        <h4 class="postion">Front-End Developer</h4>
+                        <!-- <a href="mailto:rohanro74@gmail.com">rohanro74@gmail.com</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- main information -->
+    <main id="work__information">
+        <section id="work__mainimage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="images/begin.jpeg" alt="site-main-picture" class="img-responsive center-block" width="1250" height="350">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work__featured">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                    <h2 class="text-thin">Featured Work</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4" data-toggle="modal" data-target="#project1">
+                        <h2 class="text-center"><a href="https://codepen.io/rohan74/pen/xrZvYE" title="first page"  target="_blank">First page</a></h2>
+                        <img src="images/work_one.jpeg" alt="Work1" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h2 class="text-center"><a href="#" title="Second page"  target="_blank">Second</a></h2>
+                        <img src="images/work_two.jpeg" alt="Work2" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                         <h2 class="text-center"><a href="#" title="Second page"  target="_blank">Third</a></h2>
+                        <img src="images/work_three.jpg" alt="Work2" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+<!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                <div class="copyright">
+                    <p>© 2017. Rohan Sunki. All Rights Reserved.</p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4><a href="https://codepen.io/rohan74/pen/xrZvYE" title="first page"  target="_blank">First page</a></h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://goo.gl/wckt7o" alt="work1">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- jquery script -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
